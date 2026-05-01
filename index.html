@@ -1,14 +1,64 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>The Autopack</title>
+    <title>The AutoPack</title>
+    <!-- Importing a cool font called 'Inter' -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    
+    <style>
+        /* General Page Settings */
+        body {
+            background-color: #f4f4f4; /* Light grey background */
+            font-family: 'Inter', sans-serif; /* The cool font */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* The Top Bar (Navbar) */
+        .top-bar {
+            width: 100%;
+            background-color: #333; /* Dark grey/black bar */
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+            font-weight: bold;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        /* Content Container */
+        .content {
+            margin-top: 50px;
+            text-align: center;
+        }
+
+        /* Logo Styling */
+        img {
+            max-width: 250px;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        p {
+            color: #555;
+            font-size: 1.2rem;
+        }
+    </style>
 </head>
 <body>
 
-    <!-- Referencing the specific file in your repository -->
-    <img src="image_0.png" alt="AutoPack Logo" width="300">
+    <div class="top-bar">
+        AUTOPACK WEBSITE
+    </div>
 
-    <p>The Autopack is a revolutionary backpack that organizes itself by using mechanical wheels.</p>
+    <div class="content">
+        <!-- Referencing your file verbatim -->
+        <img src="autopacklogo.png" alt="AutoPack Logo">
+        
+        <p>Welcome to the future of Backpacks.</p>
+    </div>
 
 </body>
 </html>
